@@ -1,0 +1,4 @@
+.nav{
+    display: grid;
+    grid-area: 1 / col4-start / last-line / 6;
+}

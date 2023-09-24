@@ -1,0 +1,45 @@
+body{
+    padding-top: 110px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    margin: 0;
+    padding: 5px 50px;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.header img{
+    width:100px;
+    border-radius: 50%;
+    border: 5px solid #343A40;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 36px;
+    font-size: larger;
+}
+.side-bar-mobile{
+    position: absolute;
+    left: 0;
+    top: 110px;
+    width: 100%;
+    padding: 10px;   
+}
+
+@media screen and (max-width: 768px){
+    .side-bar{
+        display: none;
+    }
+    .header a{
+       display: block;
+       text-align: center;
+       margin-left: 0;
+    }
+}
