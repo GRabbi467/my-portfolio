@@ -6,28 +6,36 @@
 .languages{
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(2,180px);
+    grid-template-columns: repeat(2,160px);
     grid-template-rows: repeat(3,max-content);
     justify-content:center;
 }
 .frontend{
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(2,180px);
+    grid-template-columns: repeat(2,160px);
     grid-template-rows: repeat(3,max-content);
     justify-content: center;
 }
 .backend{
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(2,180px);
+    grid-template-columns: repeat(2,160px);
     grid-template-rows: repeat(3,max-content);
     justify-content: center;
 }
 .others{
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(2,180px);
+    grid-template-columns: repeat(2,160px);
     grid-template-rows: repeat(3,max-content);
     justify-content: center;
 }
+
+@media  screen and (max-width : 768px) {
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+  }
