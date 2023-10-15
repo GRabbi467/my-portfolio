@@ -1,0 +1,33 @@
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.languages{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: repeat(3,max-content);
+    justify-content: end;
+}
+.frontend{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: repeat(3,max-content);
+    justify-content: start;
+}
+.backend{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: repeat(3,max-content);
+    justify-content: end;
+}
+.others{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: repeat(3,max-content);
+    justify-content: start;
+}

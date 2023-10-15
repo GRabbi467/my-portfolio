@@ -1,5 +1,6 @@
 .home{
-    margin: 0px 200px ;
+    /* margin: 0px 200px ; */
+    margin: 0 7%;
 }
 
 .upper{
@@ -39,13 +40,20 @@ grid-template-columns: 1fr 1fr;
 }
 
 .animation{
-    padding: 30px; 
+    padding: 30px;
+    width: 100%; 
+    
 }
+/* .animation-child{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+} */
 
 .social-icons{
     max-width: 750px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
     color: white;
     font-size: 2rem;
 }
@@ -57,7 +65,6 @@ color: orange;
 @media  screen and (max-width : 768px) {
   .upper{
     display: block;
-   
   }
   .home{
     margin:0 10px;

@@ -28,7 +28,7 @@ const Home = () => {
            
            </div>
 
-           <div className='animation'>
+           <div className='animation md:max-2xl:flex items-center justify-center'>
             <Lottie animationData={animationData2}/>
            </div>
            
