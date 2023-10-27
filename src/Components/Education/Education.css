@@ -1,0 +1,9 @@
+.education{
+    margin: 0 7%;
+}
+
+@media  screen and (max-width : 768px) {
+   .education{
+    margin: 20px 5px;
+   }
+  }

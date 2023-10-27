@@ -7,6 +7,8 @@ import Main from './Components/Main/Main';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Resume from './Components/Resume/Resume';
 import WhatIDo from './Components/What_I_do/WhatIDo';
+import Education from './Components/Education/Education';
+import Projects from './Components/Projects/Projects';
 
 
 function App() {
@@ -29,12 +31,16 @@ function App() {
           element: <Resume></Resume>
         },
         {
-          path:'portfolio',
-          element:<Portfolio></Portfolio>
+          path:'projects',
+          element:<Projects/>
         },
         {
           path:'about',
           element:<About_me></About_me>
+        },
+        {
+          path:'education',
+          element:<Education/>
         }
     
       ]

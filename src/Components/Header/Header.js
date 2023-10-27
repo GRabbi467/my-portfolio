@@ -16,9 +16,9 @@ const Header = () => {
         <div className='flex'>
         <ul className={isOpen ? 'side-bar-mobile':'side-bar'}>
           <Link className='hover:text-orange-400' to="/">Home</Link>
+          <Link className='hover:text-orange-400' to="/education">Education</Link>
           <Link className='hover:text-orange-400' to="/whatido">Skills</Link>
-          <Link className='hover:text-orange-400' to="/resume">Resume</Link>
-          <Link className='hover:text-orange-400' to = "/portfolio">Projects</Link>
+          <Link className='hover:text-orange-400' to = "/projects">Projects</Link>
           <Link className='hover:text-orange-400' to="/about">About Me</Link>
         </ul>
        {
