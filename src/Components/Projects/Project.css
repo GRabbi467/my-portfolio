@@ -1,6 +1,21 @@
-.projects{
+.project-container{
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: auto;
 }
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    grid-gap: 7px;
+}
+
+@media  screen and (max-width : 768px) {
+    .projects{
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 7px;
+    }
+
+  }
+  
