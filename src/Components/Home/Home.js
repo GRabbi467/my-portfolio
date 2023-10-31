@@ -51,6 +51,7 @@ const Home = () => {
             <a href="https://www.google.com/">
                 <FontAwesomeIcon icon={faWeebly}></FontAwesomeIcon>
             </a>
+          
             </div>
            
 

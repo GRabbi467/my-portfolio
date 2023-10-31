@@ -19,6 +19,7 @@ const Header = () => {
           <Link className='hover:text-orange-400' to="/education">Education</Link>
           <Link className='hover:text-orange-400' to="/whatido">Skills</Link>
           <Link className='hover:text-orange-400' to = "/projects">Projects</Link>
+          <Link className='hover:text-orange-400' to="/research">Research</Link>
           <Link className='hover:text-orange-400' to="/about">About Me</Link>
         </ul>
        {

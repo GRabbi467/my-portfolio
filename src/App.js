@@ -9,26 +9,27 @@ import Resume from './Components/Resume/Resume';
 import WhatIDo from './Components/What_I_do/WhatIDo';
 import Education from './Components/Education/Education';
 import Projects from './Components/Projects/Projects';
+import Research from './Components/Research/Research';
 
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main></Main>,
+      element: <Main/>,
       children:[
         {
           path:"/",
-          element:<Home></Home>
+          element:<Home/>
         },
         
         {
           path:'whatido',
-          element: <WhatIDo></WhatIDo>
+          element: <WhatIDo/>
         },
         {
           path:'resume',
-          element: <Resume></Resume>
+          element: <Resume/>
         },
         {
           path:'projects',
@@ -36,11 +37,15 @@ function App() {
         },
         {
           path:'about',
-          element:<About_me></About_me>
+          element:<About_me/>
         },
         {
           path:'education',
           element:<Education/>
+        },
+        {
+          path:'research',
+          element:<Research/>
         }
     
       ]
