@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook ,faTwitter,faLinkedin,faGithub,faWeebly} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook ,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons';
+import { SiLeetcode } from "react-icons/si";
 import Lottie from 'lottie-react'
 import animationData2 from '../../Assets/animation_rocket.json'
 import { Link, useNavigate } from 'react-router-dom';
@@ -36,20 +37,20 @@ const Home = () => {
 
            
             <div className='social-icons flex justify-evenly'>
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/g.rabbii/">
                 <FontAwesomeIcon icon={faFacebook} ></FontAwesomeIcon>
             </a>
-            <a href="https://www.twitter.com/">
+            <a href="https://twitter.com/grabbixx">
                 <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
             </a>
-            <a href="https://www.linkedin.com/">
+            <a href="https://www.linkedin.com/in/golam-rabbi-diu/">
                 <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
-            <a href="https://www.github.com/">
+            <a href="https://github.com/GRabbi467">
                 <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
-            <a href="https://www.google.com/">
-                <FontAwesomeIcon icon={faWeebly}></FontAwesomeIcon>
+            <a href="https://leetcode.com/rabbii/">
+                <SiLeetcode className='mt-2'/>
             </a>
           
             </div>
