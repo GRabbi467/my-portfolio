@@ -5,7 +5,7 @@
 }
 .projects{
     display: grid;
-    grid-template-columns: repeat(2,350px);
+    grid-template-columns: repeat(3,350px);
     grid-gap: 7px;
 }
 
