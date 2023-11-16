@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <nav className='header'>
           <div>
-          <img className='nav-img' src={signature} alt="" />
+         <Link to='/'> <img  className='nav-img' src={signature} alt="" /></Link>
           </div>
         
         <div className='flex'>
