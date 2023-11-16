@@ -15,7 +15,8 @@ body{
 
 .nav-img{
     margin-left: 70px;
-    width:200px;
+    width:180px;
+   
 }
 
 .header a{
@@ -27,7 +28,7 @@ body{
 .side-bar-mobile{
     position: absolute;
     left: 0;
-    top: 110px;
+    top: 62px;
     width: 100%;
     padding: 10px;   
 }
