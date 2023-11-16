@@ -28,7 +28,7 @@ body{
 .side-bar-mobile{
     position: absolute;
     left: 0;
-    top: 62px;
+    top: 60px;
     width: 100%;
     padding: 10px;   
 }
