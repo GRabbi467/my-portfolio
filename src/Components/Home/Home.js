@@ -23,7 +23,7 @@ const Home = () => {
            <h3 className='text-2xl text-orange-50'>Hi,My Name is</h3><br />
            <h1 className='text-4xl lg:text-5xl text-orange-400'>GOLAM RABBI.</h1>
            <h1 className='text-4xl lg:text-5xl text-orange-300 my-5'>I BUILD THINGS FOR THE WEB.</h1>
-           <p className='text-2xl'>I'm a a highly motivated and enthusiastic Junior Full Stack Developer with a strong passion for technology and a desire to make a meaningful impact in the world of web development.</p>
+           <p className='text-2xl'>I'm a highly motivated and enthusiastic Junior Full Stack Developer with a strong passion for technology and a desire to make a meaningful impact in the world of web development.</p>
            <p className='text-2xl'>With a background in computer science and a recent completion of a coding bootcamp, I am eager to kickstart my career and contribute to exciting projects.</p>
            <Link to = 'https://drive.google.com/file/d/1XwKk0nhJkhE0TZF5n9R-98SMDNZbZYHO/view?usp=drive_link'> <button className="resume-btn">RESUME</button></Link>
            

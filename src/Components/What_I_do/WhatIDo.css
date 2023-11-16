@@ -31,6 +31,12 @@
     grid-template-rows: repeat(3,max-content);
     justify-content: center;
 }
+.skillLevel:hover{
+    cursor: pointer;
+    background-image: linear-gradient(90deg, black 50%, blue 50%);
+    width: 50%;
+    z-index: 1;
+}
 
 @media  screen and (max-width : 768px) {
     .skills{

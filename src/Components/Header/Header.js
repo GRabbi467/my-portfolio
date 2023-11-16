@@ -8,8 +8,8 @@ const Header = () => {
   const [isOpen,setIsOpen] = useState(false);
     return (
         <nav className='header'>
-          <div>
-         <Link to='/'> <img  className='nav-img' src={signature} alt="" /></Link>
+          <div className='nav-img'>
+         <Link to='/'> <img src={signature} alt="" /></Link>
           </div>
         
         <div className='flex'>

@@ -1,5 +1,5 @@
 body{
-    padding-top: 110px;
+    padding-top: 88px;
 }
 .header{
     display: flex;
@@ -14,9 +14,10 @@ body{
 }
 
 .nav-img{
-    margin-left: 70px;
-    width:180px;
-   
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    width: 200px;
 }
 
 .header a{
@@ -45,8 +46,9 @@ body{
        text-align: center;
        margin-left: 0;
     }
-    .header img{
+    .nav-img{
         width:150px;
         margin-left: 0;
+        margin-bottom: 0;
     }
 }
