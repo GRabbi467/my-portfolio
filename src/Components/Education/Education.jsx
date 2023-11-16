@@ -16,6 +16,7 @@ const Education = () => {
                         <p className='text-xl text-white'>Bachelor of Computer Science and Engineering</p>
                         <p className='text-md text-white'>April 2018 - May 2022</p>
                         <p className='text-md text-white'>Dhaka, Bangladesh</p>
+                        <p className='text-xl text-white'>CGPA : 3.74/4</p>
                     </div>       
                 </div>
                 <div className="college grid grid-cols-1  justify-items-center md:flex pb-1 md:p-4 border-b-4 border-orange-500 mt-8">
@@ -25,6 +26,7 @@ const Education = () => {
                         <p className='text-xl text-white'>Higher Secondary School</p>
                         <p className='text-md text-white'>July 2014 - June 2016</p>
                         <p className='text-md text-white'>Dhaka, Bangladesh</p>
+                        <p className='text-xl text-white'>GPA : 5.00/5.00</p>
                     </div>       
                 </div>
                 <div className="bjet grid grid-cols-1  justify-items-center md:flex pb-1 md:p-4 border-b-4 border-orange-500 mt-8">
