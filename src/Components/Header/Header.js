@@ -24,11 +24,11 @@ const Header = () => {
        {
         isOpen ?
         (
-          <FaTimes onClick={()=>setIsOpen(!isOpen)} className='text-white ml-4 mt-2 text-xl md:hidden'></FaTimes>
+          <FaTimes onClick={()=>setIsOpen(!isOpen)} className='text-white ml-4 mt-2 text-2xl md:hidden'></FaTimes>
         )
         :
         (
-          <FaBars onClick={()=>setIsOpen(!isOpen)} className='text-white ml-4 mt-2 text-3xl md:hidden'/>
+          <FaBars onClick={()=>setIsOpen(!isOpen)} className='text-white ml-4 mt-2 text-2xl md:hidden'/>
         )
 
        }

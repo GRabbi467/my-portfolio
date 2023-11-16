@@ -34,7 +34,7 @@ body{
 
 @media screen and (max-width: 768px){
     .header{
-        padding-left:  0;
+        padding-left:  10px;
     }
     .side-bar{
         display: none;
@@ -45,7 +45,7 @@ body{
        margin-left: 0;
     }
     .header img{
-        width:200px;
+        width:180px;
         margin-left: 0;
     }
 }
