@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import Rabbi2 from '../../Images/Rabbi3.png';
+import signature from './../../Images/rsz_signature_1.png';
 import { FaBars ,FaTimes} from "react-icons/fa";
 
 const Header = () => {
   const [isOpen,setIsOpen] = useState(false);
-  console.log(isOpen)
     return (
         <nav className='header'>
-          <div className='logo_name'>
-          <img className='' src= {Rabbi2} alt="Golam Rabbi" />  
+          <div>
+          <img className='nav-img' src={signature} alt="" />
           </div>
         
         <div className='flex'>
@@ -29,7 +28,7 @@ const Header = () => {
         )
         :
         (
-          <FaBars onClick={()=>setIsOpen(!isOpen)} className='text-white ml-4 mt-2 text-xl md:hidden'/>
+          <FaBars onClick={()=>setIsOpen(!isOpen)} className='text-white ml-4 mt-2 text-3xl md:hidden'/>
         )
 
        }

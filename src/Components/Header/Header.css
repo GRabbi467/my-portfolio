@@ -13,10 +13,9 @@ body{
     z-index: 999;
 }
 
-.header img{
-    width:100px;
-    border-radius: 50%;
-    border: 5px solid #343A40;
+.nav-img{
+    margin-left: 70px;
+    width:200px;
 }
 
 .header a{
@@ -34,6 +33,9 @@ body{
 }
 
 @media screen and (max-width: 768px){
+    .header{
+        padding-left:  0;
+    }
     .side-bar{
         display: none;
     }
@@ -41,5 +43,9 @@ body{
        display: block;
        text-align: center;
        margin-left: 0;
+    }
+    .header img{
+        width:200px;
+        margin-left: 0;
     }
 }

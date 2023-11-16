@@ -5,7 +5,7 @@ import { faFacebook ,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-bran
 import { SiLeetcode } from "react-icons/si";
 import Lottie from 'lottie-react'
 import animationData2 from '../../Assets/animation_rocket.json'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 
 
