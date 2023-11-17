@@ -7,7 +7,7 @@ const Research = () => {
     return (
         <>
         <h1 className='text-orange-500 text-center text-3xl mb-8'>Research</h1>
-        <div className='grid justify-center'>
+        <div className='grid justify-center m-4'>
            <div className="research-container1 text-white border-2 border-orange-500 rounded-2xl p-6">
                <p className='text-md lg:text-2xl'>Paper Title: Bangla Font Recognition using Transfer Learning Method</p>
                <p>Published In : 2022 International Conference on Inventive Computation Technologies (ICICT)</p>

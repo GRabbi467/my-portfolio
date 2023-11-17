@@ -22,7 +22,7 @@ const WhatIDo = () => {
               <div>
               <h1 className='text-2xl text-center text-white mb-4'>Frontend</h1>
               <div className='frontend cursor-pointer'>
-                    <div className='p-4 border-2 rounded-lg border-orange-500 skillLevel'><FaHtml5 className='text-2xl text-orange-600  inline'/><span className='text-neutral-400 font-semibold ml-1'>HTML5</span></div>
+                    <div className='p-4 border-2 rounded-lg border-orange-500'><FaHtml5 className='text-2xl text-orange-600  inline'/><span className='text-neutral-400 font-semibold ml-1'>HTML5</span></div>
                     <div className='p-4 border-2 rounded-lg border-orange-500'><FaCss3Alt className='text-2xl text-blue-700 inline'/><span className=' text-neutral-400 font-semibold ml-1'>CSS3</span></div>
                     <div className='p-4 border-2 rounded-lg border-orange-500'><FaReact className='text-2xl text-cyan-600 inline'/><span className=' text-neutral-400 font-semibold ml-1'>ReactJS</span></div>
                     <div className='p-4 border-2 rounded-lg border-orange-500'><FaBootstrap className='text-2xl text-indigo-500 inline'/><span className=' text-neutral-400 font-semibold ml-1'>Bootstrap</span></div>
