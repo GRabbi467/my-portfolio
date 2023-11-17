@@ -20,11 +20,6 @@
     display: grid;
     align-items: center;
 }
-.btn-div{
-  margin-top: 50px;
-  display: grid;
-  justify-items: center;
-}
 
 
   @media  screen and (max-width : 1500px){
