@@ -14,7 +14,7 @@ const Home = () => {
           <div className='upper'>
           <div className="my-info">
            <h3 className='text-2xl text-orange-50'>Hi,My Name is</h3><br />
-           <h1 className='text-3xl  md:text-5xl text-orange-400'>GOLAM RABBI.</h1>
+           <h1 className='text-3xl  md:text-5xl text-orange-400'>GOLAM RABBI (ゴラムラッビ).</h1>
            <h1 className=' text-3xl md:text-4xl 2xl:text-5xl text-orange-300 my-5'>I BUILD THINGS FOR THE WEB.</h1>
            <p className='text lg md:text-2xl'>I'm a highly motivated and enthusiastic Junior Full Stack Developer with a strong passion for technology and a desire to make a meaningful impact in the world of web development.</p>
            {/* <p className='text-2xl'>With a background in computer science and a recent completion of a coding bootcamp, I am eager to kickstart my career and contribute to exciting projects.</p> */}
