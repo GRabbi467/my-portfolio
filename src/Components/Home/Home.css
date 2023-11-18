@@ -42,7 +42,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .animation{
-    padding: 30px;
+    padding: 20px;
     width: 100%; 
     
 }
@@ -50,7 +50,7 @@ grid-template-columns: 1fr 1fr;
 .social-icons{
     max-width: 750px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 75px;
     color: white;
     font-size: 2rem;
 }
@@ -64,14 +64,14 @@ color: orange;
     display: block;
   }
   .home{
-    margin:0 10px;
+    margin:20px 10px;
   }
   .animation{
     padding: 0;
     width: 100%;
   }
   .my-info{
-    margin-top: 0;
+    margin-top: 0px;
     /* padding: 10px; */
 }
 .my-info h3 {
@@ -79,7 +79,7 @@ color: orange;
 }
 
 .social-icons{
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 }
