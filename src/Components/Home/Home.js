@@ -18,7 +18,7 @@ const Home = () => {
            <h1 className=' text-3xl md:text-4xl 2xl:text-5xl text-orange-300 my-5'>I BUILD THINGS FOR THE WEB.</h1>
            <p className='text lg md:text-2xl'>I'm a highly motivated and enthusiastic Junior Full Stack Developer with a strong passion for technology and a desire to make a meaningful impact in the world of web development.</p>
            {/* <p className='text-2xl'>With a background in computer science and a recent completion of a coding bootcamp, I am eager to kickstart my career and contribute to exciting projects.</p> */}
-           <Link to = 'https://drive.google.com/file/d/1XwKk0nhJkhE0TZF5n9R-98SMDNZbZYHO/view?usp=drive_link'> <button className="resume-btn">RESUME</button></Link>       
+           <Link to = 'https://drive.google.com/file/d/1KTmabii4hnCub9DzZpnFsjAfHfmpvGGG/view?usp=drive_link'> <button className="resume-btn">RESUME</button></Link>       
            </div>
 
            <div className='animation md:max-2xl:flex items-center justify-center'>
